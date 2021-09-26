@@ -10,19 +10,20 @@
 <body>
 <!--This link takes  users to the the high scores page-->
     <div class="scores"><a href="highscore.html">View Highscores</a></div>
-
-    <div class="timer">Time:<span id="time">0</span></div>
-
+<!--div for the timer-->
+    <div class="currentTime">Time:<span id="time">0</span></div>
+<!--this is the wrapper to the start screen-->
     <div class="wrapper">
         <div id="start-screen" class="start">
             <h1>Coding Test your Knowledge...</h1>
             <p>
                 Try to answer the following questions related to JavaScript within the time allowed. Keep in mind that incorrect answers will penalize your time by ten seconds! Good Luck!
             </p>
+<!--Start button-->
             <button id="start">Start Quiz</button>
         </div>
     </div>
-
+<!--Div for the questions content-->
     <div id="questions" class="hide">
         <h2 id="questions-title"></h2>
         <div id="choices" class="choices"></div>
@@ -38,8 +39,6 @@
     </div>
 
     <div id="Feedback" class="feeback hide"></div>
-
-    <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/logic.js"></script>
 </body>
 </html>
