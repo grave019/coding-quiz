@@ -1,11 +1,13 @@
-let time = questions.length * 15;
-let timerId;
-let currentQuestionIndex = 0;
+//declared variables
+var time = questions.length * 15;
+var timerId;
+var currentQuestionIndex = 0;
+var score = 0
 
 //DOM elements
-let startBtn = document.querySelector("#start");
-let questionsElement = document.querySelector("#questions");
-let timerElement = document.querySelector("#choices");
+var startBtn = document.querySelector("#start");
+var questionsElement = document.querySelector("#questions");
+var timerElement = document.querySelector("#choices");
 
 
 
