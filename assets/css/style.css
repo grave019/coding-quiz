@@ -8,17 +8,7 @@
     box-shadow: darkgrey;
 }
 
-.scores {
-    background-color: crimson;
-    position: absolute;
-    padding: 1px;
-    font-size: 20px;
-    color: white;
-    width: auto;
-    text-align: left;
-    text-decoration: none;
-    box-shadow: darkgrey;
-}
+
 
 #startTime {
     background-color: crimson;
