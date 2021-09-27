@@ -1,0 +1,35 @@
+#wrapper {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    width: 500px;
+    height: 500px;
+    border: 1px solid crimson;
+}
+#startTime {
+    background-color: crimson;
+    margin-left: 30%;
+    padding: 15px 25px;
+    font-size: 30px;
+    color: white;
+}
+#questionsDiv {
+    margin: 10px;
+}
+
+#currentTime {
+    float: right;
+}
+
+#goBack {
+    background-color: crimson;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
