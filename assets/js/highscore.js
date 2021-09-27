@@ -17,7 +17,6 @@ allScores = JSON.parse(allScores);
 // creates list of high scores and puts highest score at the top of the list
 if (allScores !== null) {
     for (var i = 0; i < allScores.length; i++) {
-
         var createli = document.createElement("li");
         createli.textContent = allScores[i].initials + " " + allScores[i].allScores;
         highScore.appendChild(createli);
@@ -27,5 +26,5 @@ if (allScores !== null) {
 // Adds Eventlistener to go back the quiz page
 
 goBack.addEventListener("click", function(){
-    window.location.replace("quiz.html")
+    window.location.replace("index.html")
 });
