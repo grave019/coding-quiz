@@ -2,11 +2,18 @@
 
 ## 1.Introduction
 
-## 2. Goals
+## 2.Goals
 
-## 3. Reflection
+## 3.Reflection
 
-## 4. Images of Live Web Page
+## 4.Images of Live Web Page
 
-## 5. 
+## 5.Link to the Website
+
+## 6.Credits
+
+### 1. Introduction
+
+
+
 

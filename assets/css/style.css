@@ -1,3 +1,6 @@
+header {
+    float:left;
+}
 #wrapper {
     position: absolute;
     left: 30%;
