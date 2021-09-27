@@ -1,4 +1,4 @@
-//Array of questions for quiz
+//Array of questions to be inserted for quiz
 var questions = [
     {
         title: "Which type of values return a true of false statement?",
@@ -57,14 +57,15 @@ var questions = [
 ];
 //declared variables
 var timerId;
-var currentQuestion = 0;
+var questionIndex = 0;
 var score = 0;
 
 //DOM elements
 var wrapper = document.querySelector("#wrapper");
-var startBtn = document.querySelector("#start");
-var questionsElement = document.querySelector("#questions");
-var timerElement = document.querySelector("#choices");
+var timer = document.querySelector("#startTime");
+var questionsElement = document.querySelector("#questionsDiv");
+var currentTime = document.querySelector("#time");
+
 
 // seconds left is 15 seconds per question and 10 questions
 var secondsLeft = 150;
@@ -89,13 +90,19 @@ timerElement.addEventListener("click", function(){
             }
         }, 1000);
     }
-    render(currentQuestion)
+    render(questionIndex);
 });
 // renders questions and choices to the page
 function render(currentQuestion){ 
+//clears existing data on the page
     questions.innerHTML = "";
     ulCreate.innerHTML = "";
-    for ()
+// for loops to got through the questions array
+    for (var i = 0; i < questions.length; i++) {
+        var userQuestion = questions[questionIndex].title;
+        var userChoices = questions[questionIndex].choices;
+        questionsDiv.textContent = userQuestion;
+    }
    
 }
 
