@@ -20,7 +20,10 @@ header {
     box-shadow: darkgrey;
 }
 #questionsDiv {
-    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 30px;
+    margin-top: 30px;
 }
 
 #currentTime {
