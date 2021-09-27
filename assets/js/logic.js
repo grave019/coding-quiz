@@ -1,4 +1,4 @@
-//Array of questions
+//Array of questions for quiz
 var questions = [
     {
         title: "Which type of values return a true of false statement?",
