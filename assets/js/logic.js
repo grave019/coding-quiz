@@ -220,5 +220,4 @@ questionsDiv.appendChild(createInput);
          window.location.replace("highscore.html");
      }
  });
-
 }

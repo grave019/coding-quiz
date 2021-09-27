@@ -5,13 +5,28 @@
     width: 500px;
     height: 500px;
     border: 1px solid crimson;
+    box-shadow: darkgrey;
 }
+
+.scores {
+    background-color: crimson;
+    position: absolute;
+    padding: 1px;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    text-align: left;
+    text-decoration: none;
+    box-shadow: darkgrey;
+}
+
 #startTime {
     background-color: crimson;
     margin-left: 33%;
     padding: 15px 32px;
     font-size: 20px;
     color: white;
+    box-shadow: darkgrey;
 }
 #questionsDiv {
     margin: 20px;
@@ -32,6 +47,7 @@
     width: auto;
     text-align: center;
     text-decoration: none;
+    box-shadow: darkgrey;
 }
 
 #clear {
@@ -43,6 +59,7 @@
     top: 30%;
     right: 5%;
     text-align: center;
+    box-shadow: darkgrey;
 }
 
 button {
