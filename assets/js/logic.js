@@ -57,7 +57,7 @@ var questions = [
 ];
 //declared variables
 var timerId;
-var currentQuestionIndex = 0;
+var currentQuestion = 0;
 var score = 0;
 
 //DOM elements
@@ -89,25 +89,20 @@ timerElement.addEventListener("click", function(){
             }
         }, 1000);
     }
-    render(currentQuestionIndex)
+    render(currentQuestion)
 });
 // renders questions and choices to the page
-function getcurrentQuestion(){ 
-    var = currentQuestion = questions[currentQuestionIndex];
-    console.log(currentQuestion);
-    var titleElement = document.querySelector("#question-title");
-    titleElement.textContent = currentQuestion.title
-    questionChoices.textContent = "";
-
+function render(currentQuestion){ 
+    questions.innerHTML = " ";
+    ulCreate.innerHTML = " ";
     for (var i = 0; i < currentQuestion.questionChoices.length; i++) {
         var choices = document.createElement("button");
         choices.setAttribute("class", "choice");
         choices.setAttribute("value", currentQuestion.choice[i]);
-
+    
         choices.textContent = i + "." + currentQuestion.choice[i];
         questionChoices.appendChild(choices);
 
-    }
 }
 
 
@@ -126,3 +121,12 @@ function startQuiz() {
 
 
 startBtn.addEventListener("click", startQuiz);
+
+var = currentQuestion = questions[currentQuestionIndex];
+console.log(currentQuestion);
+var titleElement = document.querySelector("#question-title");
+titleElement.textContent = currentQuestion.title
+questionChoices.textContent = "";
+
+
+}
