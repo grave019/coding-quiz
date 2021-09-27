@@ -93,16 +93,10 @@ timerElement.addEventListener("click", function(){
 });
 // renders questions and choices to the page
 function render(currentQuestion){ 
-    questions.innerHTML = " ";
-    ulCreate.innerHTML = " ";
-    for (var i = 0; i < currentQuestion.questionChoices.length; i++) {
-        var choices = document.createElement("button");
-        choices.setAttribute("class", "choice");
-        choices.setAttribute("value", currentQuestion.choice[i]);
-    
-        choices.textContent = i + "." + currentQuestion.choice[i];
-        questionChoices.appendChild(choices);
-
+    questions.innerHTML = "";
+    ulCreate.innerHTML = "";
+    for ()
+   
 }
 
 
@@ -130,3 +124,10 @@ questionChoices.textContent = "";
 
 
 }
+for (var i = 0; i < currentQuestion.questionChoices.length; i++) {
+    var choices = document.createElement("button");
+    choices.setAttribute("class", "choice");
+    choices.setAttribute("value", currentQuestion.choice[i]);
+
+    choices.textContent = i + "." + currentQuestion.choice[i];
+    questionChoices.appendChild(choices);
