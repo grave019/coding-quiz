@@ -2,56 +2,56 @@
 var questions = [
     {
         title: "Which type of values return a true of false statement?",
-        choice: ["Boolean", "Empty Values", "Strings", "Numbers"],
+        choices: ["Boolean", "Empty Values", "Strings", "Numbers"],
         answer: "Boolean" 
     },
     {
         title: "Where is the link for JavaScript inserted into a Web Page?",
-        choice: ["footer", "header", "top of the body", "bottom of the body"],
+        choices: ["footer", "header", "top of the body", "bottom of the body"],
         answer: "bottom of the body"
 
     },
     
     {
         title: "Which of the following is an example of a comparison operator?",
-        choice: [ "*", "&&", "!=", "?:"],
+        choices: [ "*", "&&", "!=", "?:"],
         answer: "!="
     },
     {
         title: "What happens if the tested condition is false?",
-        choice: ["The code's execution will be stopped", "The code in the braces gets executed anyway",     "The code does nothing and moves to the next section", "The code executes the section"],
+        choices: ["The code's execution will be stopped", "The code in the braces gets executed anyway","The code does nothing and moves to the next section", "The code executes the section"],
         answer: "The code does nothing and moves to the next section"
     },
     {   
         title: "What is the result of trying to reference an array member which does not exist?",
-        choice: ["false", "0", "undefined", "null"],
-        anwser: "undefined"
+        choices: ["false", "0", "undefined", "null"],
+        answer: "undefined"
 
     },
     {
         title: "An array has the length property, because it is:",
-        choice: ["an object", "a function", "a variable", "a element"],
-        anwser: "an object"
+        choices: ["an object", "a function", "a variable", "a element"],
+        answer: "an object"
     },
     {
         title: "The concat method takes two arrays and:",
-        choice: ["combines them into 1 new array", "compares their members", "outputs them to the screen",
+        choices: ["combines them into 1 new array", "compares their members", "outputs them to the screen",
         "deletes the larger array"],
-        answer: "combines the into 1 new array"             
+        answer: "combines them into 1 new array"             
     },
     {
         title: "In the Math Object, which of the following constants do not exist?",
-        choice: ["Math.PI", "Math.E", "Math.ABC", "Math.LN10"],
+        choices: ["Math.PI", "Math.E", "Math.ABC", "Math.LN10"],
         answer: "Math.ABC"
     },
     {
         title: "In the Math Object, which of the following methods is used to calculate the square root?",
-        choice: ["round", "ceil", "sqrt", "root"],
+        choices: ["round", "ceil", "sqrt", "root"],
         answer: "sqrt"
     },
     {
         title: "What does DOM stand for?",
-        choice: ["Document Object Model", "Document Orientation Model", "Definitive Orientation Model","Definitive Object Model"],
+        choices: ["Document Object Model", "Document Orientation Model", "Definitive Orientation Model","Definitive Object Model"],
         answer: "Document Object Model"
     }
 ];
@@ -66,11 +66,11 @@ var timer = document.querySelector("#startTime");
 var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
-// Seconds left is 15 seconds per question:
-var secondsLeft = 150;
+// Seconds left is 10 seconds per question:
+var secondsLeft = 100;
 // Holds interval time
 var holdInterval = 0;
-// penalty time for incorrect answer
+// penalty time for incorrect answer is 10 seconds
 var penalty = 10;
 // Creates new element
 var ulCreate = document.createElement("ul");
@@ -117,9 +117,7 @@ function render(questionIndex) {
 // Event to compare choices with answer
 function compare(event) {
     var element = event.target;
-
     if (element.matches("li")) {
-
         var createDiv = document.createElement("div");
         createDiv.setAttribute("id", "createDiv");
         // Correct condition 
@@ -128,7 +126,7 @@ function compare(event) {
             createDiv.textContent = "Correct! The answer is:  " + questions[questionIndex].answer;
             // Correct condition 
         } else {
-            // Will deduct -5 seconds off secondsLeft for wrong answers
+            // Will deduct -10 seconds off secondsLeft for wrong answers
             secondsLeft = secondsLeft - penalty;
             createDiv.textContent = "Wrong! The correct answer is:  " + questions[questionIndex].answer;
         }
@@ -171,15 +169,14 @@ if (secondsLeft >= 0) {
         var createP2 = document.createElement("p");
         clearInterval(holdInterval);
         createP.textContent = "Your final score is: " + timeRemaining;
-
         questionsDiv.appendChild(createP2);
     }
 
 // Label
-    var createLabel = document.createElement("label");
-    createLabel.setAttribute("id", "createLabel");
-    createLabel.textContent = "Enter your initials: ";
-    questionsDiv.appendChild(createLabel);
+var createLabel = document.createElement("label");
+createLabel.setAttribute("id", "createLabel");
+createLabel.textContent = "Enter your initials: ";
+questionsDiv.appendChild(createLabel);
 
 // input
 var createInput = document.createElement("input");
@@ -203,7 +200,8 @@ questionsDiv.appendChild(createInput);
 
          console.log("No value entered!");
 
-     } else {
+     } 
+        else {
          var finalScore = {
              initials: initials,
              score: timeRemaining
@@ -219,7 +217,7 @@ questionsDiv.appendChild(createInput);
          var newScore = JSON.stringify(allScores);
          localStorage.setItem("allScores", newScore);
          // Travels to final page
-         window.location.replace("./HighScores.html");
+         window.location.replace("./highscore.html");
      }
  });
 
