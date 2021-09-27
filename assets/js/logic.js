@@ -165,8 +165,8 @@ function allDone() {
 
     questionsDiv.appendChild(createP);
 
-    // Calculates time remaining and replaces it with score
-    if (secondsLeft >= 0) {
+// Calculates time remaining and replaces it with score
+if (secondsLeft >= 0) {
         var timeRemaining = secondsLeft;
         var createP2 = document.createElement("p");
         clearInterval(holdInterval);
@@ -175,19 +175,18 @@ function allDone() {
         questionsDiv.appendChild(createP2);
     }
 
-    // Label
+// Label
     var createLabel = document.createElement("label");
     createLabel.setAttribute("id", "createLabel");
     createLabel.textContent = "Enter your initials: ";
-
     questionsDiv.appendChild(createLabel);
 
-    // input
-    var createInput = document.createElement("input");
-    createInput.setAttribute("type", "text");
-    createInput.setAttribute("id", "initials");
-    createInput.textContent = "";
-    questionsDiv.appendChild(createInput);
+// input
+var createInput = document.createElement("input");
+createInput.setAttribute("type", "text");
+createInput.setAttribute("id", "initials");
+createInput.textContent = "";
+questionsDiv.appendChild(createInput);
  // submit
  var createSubmit = document.createElement("button");
  createSubmit.setAttribute("type", "submit");
