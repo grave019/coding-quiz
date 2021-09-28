@@ -53,6 +53,57 @@ var questions = [
         title: "What does DOM stand for?",
         choices: ["Document Object Model", "Document Orientation Model", "Definitive Orientation Model","Definitive Object Model"],
         answer: "Document Object Model"
+    },
+    {   
+        title: "In how many Marvel Studios films does Agent Coulson appear?",
+        choices: ["4", "7", "6", "5"],
+        answer: "5"
+
+    },
+    {
+        title:"What alias did Black Widow use in Iron Man 2?",
+        choices: ["Natalia Romanoff", "Natalie Russell", "Natalia Roman", "Natalie Rushman"],
+        answer: "Natalie Rushman"
+    },
+    {
+        title:"Who or what created the Infinity Stones?",
+        choices: ["6 singularities from before the Big Bang", "Roy Thomas", "The Celestials", "The Eternals"],
+        answer: "6 singularities from before the Big Bang"
+    },
+    {
+        title:"Who is Loki's Father?",
+        choices: ["Laufey", "Ronan The Accuser", "Dormammu", "Odin"],
+        answer: "Laufey" 
+    },
+    {
+        title: "which of the Nine Realms has not appeared in a Thor film?",
+        choices: ["Midgard", "Nidavellir", "Alfheim", "Muspelheim"],
+        answer: "Alfheim"   
+    },
+    {
+        title: "Where does Dormammu reside?",
+        choices:["The Quantum Realm", "The Dark Dimension", "The Astral Plane", "The Mirror Dimension"],
+        answer: "The Dark Dimension"
+    },
+    {
+        title: "Which script is Stan Lee reading in his Captain Marvel cameo?",
+        choices: ["Generation X", "Mallrats", "Blade", "James Cameron's Spider Man"],
+        answer: "Mallrats"
+    },
+    {
+        title: "What is Nick Fury's middle name?",
+        choices: ["Josiah", "Jebidiah", "Jacob", "Joseph"],
+        answer: "Joseph"
+    },
+    {
+        title:"Which MCU movie featured Spider-Man's first appearance?",
+        choices: ["Spider-Man Homecoming", "Iron Man 3", "Captain America: Civil War", "Avengers: Age of Ultron"],
+        answer: "Captain America: Civil War"
+    },
+    {
+        title:"Who played the Hulk before Mark Ruffalo?",
+        choices: ["Liam Hemsworth", "Gary Oldman", "Edward Norton", "Will Smith"],
+        answer: "Edward Norton"
     }
 ];
 // Declared variables
@@ -67,7 +118,7 @@ var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
 // Seconds left is 10 seconds per question:
-var secondsLeft = 100;
+var secondsLeft = 200;
 // Holds interval time
 var holdInterval = 0;
 // penalty time for incorrect answer is 10 seconds
