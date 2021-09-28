@@ -14,12 +14,11 @@
 
 ### 1. Introduction
 
-The goal of this project was to simulate a coding assessment quiz. Often, assessments test the knowledge of potential applicants. For my quiz I chose a 10 multiple question test focussing on JavaScript.
+The goal of this project was to simulate a coding assessment quiz. Often, assessments test the knowledge of potential applicants. For my quiz I chose a 10 multiple question test focus the first 10 questions on JavaScript. For fun, I did an additional 10 questions related to the Marvel Cinematic Universe. Coding is fun and I wanted to let a little of my personality come out in my work.
 
 ### 2. Goals
 
-My goal when making this test was to ask questions that the typical coder should know. In order to make this test, I created index.html page to house the questions on the test. I also created a highscore.html page to score the high scores on local storage within the website. I chose to border the questions and answers in a crimson and white color scheme that was appealing to me. When creating my logic.js page I first created an array of 10 questions that I will be pulling my questions from. In the quiz I have given the test taker 10 seconds per question for a total of 100 seconds. If a question is answered incorrectly a penalty of 10 seconds will be deducted from the test takers time alotment. In order to display these questions sequentially and have a web page that changes with every answer I used jquery queryselector to connect in the document with the id tags in the html document.
-I was able to accomplish each of these goals. The user is able to input their initials after they take the quiz and then they are taken to the highscore.html page.
+My goal when making this test was to ask questions that the typical coder should know. In order to make this test, I created index.html page to house the questions on the test. I also created a highscore.html page to score the high scores on local storage within the website. I chose to border the questions and answers in a crimson and white color scheme that was appealing to me. When creating my logic.js page I first created an array of 20 questions that I will be pulling my questions, choices and answers from. In the quiz I have given the test taker 10 seconds per question for a total of 200 seconds. If a question is answered incorrectly a penalty of 10 seconds will be deducted from the test takers time alotment. In order to display these questions sequentially and have a web page that changes with every answer I used jquery queryselector to connect in the document with the id tags in the html document. When a person is finished with the test the number of seconds remaining will be their total score. I was able to accomplish each of these goals. The user is able to input their initials after they take the quiz and then they are taken to the highscore.html page. This information is stored in local storage allowing the user to see how they did compared to other quiz takers.a
 
 ### 3. Reflection
 
@@ -130,6 +129,6 @@ https://eloquentjavascript.net/
 I also looked at codeninjas.com
 https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/
 
-In addition, I borrowed some trivia information from rottentomatoes.com
+In addition, I borrowed some trivia information from rottentomatoes.com. However, being an MCU nerd I knew all the information to begin with.
 
 As well as took advantage of the excellent staff at Central Florida University and Trinity Education Services. Thank you for taking the time to read my Code Quiz Project. If you would like to view more please submit a pull request.
