@@ -27,17 +27,17 @@ As a junior web developer I found this task to be extremely challenging. I learn
 
 ### 4. Images of the web page
 
-![image1](assets/images/image1.png)
-![question1](assets/images/question1.png)
-![question2](assets/images/question2.png)
-![question3](assets/images/question3.png)
-![question4](assets/images/question4.png)
-![question5](assets/images/question5.png)
-![question6](assets/images/question6.png)
-![question7](assets/images/question7.png)
-![question8](assets/images/question8%20.png)
-![question9](assets/images/question9.png)
-![question10](assets/images/question10.png)
+![image1](/assets/images/home.png)
+![question1](/assets/images/question1.png)
+![question2](/assets/images/question2.png)
+![question3](/assets/images/question3.png)
+![question4](/assets/images/question4.png)
+![question5](/assets/images/question5.png)
+![question6](/assets/images/question6.png)
+![question7](/assets/images/question7.png)
+![question8](/assets/images/question8.png)
+![question9](/assets/images/question9.png)
+![question10](/assets/images/question10.png)
 ![finalscore](assets/images/final%20score.png)
 
 ### 5. Link to the Web Site
