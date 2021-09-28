@@ -200,8 +200,8 @@ questionsDiv.appendChild(createInput);
      } 
         else {
          var finalScore = {
-             initials = initials,
-             myScore = timeRemaining,
+             initials: initials,
+             allScores: timeRemaining,
          }
         
          console.log(finalScore);
