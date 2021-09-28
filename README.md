@@ -30,7 +30,7 @@ In addition, to the 10 JavaScript questions I asked, I decided to add 10 questio
 
 #### Home Screen
 
-![image1](/assets/images/1.png)
+![image1](/assets/images/quizpage.png)
 
 #### Question 1
 
