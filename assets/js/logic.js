@@ -150,17 +150,16 @@ function allDone() {
     questionsDiv.innerHTML = "";
     currentTime.innerHTML = "";
 
-    // Heading:
+    //creates Heading:
     var createH1 = document.createElement("h1");
     createH1.setAttribute("id", "createH1");
     createH1.textContent = "All Done!"
 
     questionsDiv.appendChild(createH1);
 
-    // Paragraph
+    // creates a Paragraph
     var createP = document.createElement("p");
     createP.setAttribute("id", "createP");
-
     questionsDiv.appendChild(createP);
 
 // Calculates time remaining and replaces it with score
@@ -172,24 +171,23 @@ if (secondsLeft >= 0) {
         questionsDiv.appendChild(createP2);
     }
 
-// Label
+// creates a label to enter user intials
 var createLabel = document.createElement("label");
 createLabel.setAttribute("id", "createLabel");
 createLabel.textContent = "Enter your initials: ";
 questionsDiv.appendChild(createLabel);
 
-// input
+// inputs user initials
 var createInput = document.createElement("input");
 createInput.setAttribute("type", "text");
 createInput.setAttribute("id", "initials");
 createInput.textContent = "";
 questionsDiv.appendChild(createInput);
- // submit
+ // submits the intials and score to the high scores page
  var createSubmit = document.createElement("button");
  createSubmit.setAttribute("type", "submit");
  createSubmit.setAttribute("id", "Submit");
  createSubmit.textContent = "Submit";
-
  questionsDiv.appendChild(createSubmit);
 
  // Event listener to capture initials and local storage for initials and score
@@ -199,7 +197,6 @@ questionsDiv.appendChild(createInput);
      if (initials === null) {
 
          console.log("No value entered!");
-
      } 
         else {
          var finalScore = {
