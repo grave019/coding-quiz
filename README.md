@@ -23,22 +23,99 @@ I was able to accomplish each of these goals. The user is able to input their in
 
 ### 3. Reflection
 
-As a junior web developer I found this task to be extremely challenging. I learned a great deal due to white boarding this solution and came up with many different ways I could have approached this task. I would like to revisit this quiz format in the future to create a longer test or add some extra trivia to help me prepare for the interview process. This project has helped me hone my skills and allowed me to become more familiar with JavaScript. It is a very difficult language but I am starting to get a handle on it. In addition, to the 10 JavaScript questions I asked, I decided to add 10 questions pertaining to the MCU just for fun. I hope you had just as much fun taking this quiz as I did making it.
+As a junior web developer I found this task to be extremely challenging. I learned a great deal due to white boarding this solution and came up with many different ways I could have approached this task. I would like to revisit this quiz format in the future to create a longer test or add some extra trivia to help me prepare for the interview process. This project has helped me hone my skills and allowed me to become more familiar with JavaScript. It is a very difficult language but I am starting to get a handle on it.
+
+In addition, to the 10 JavaScript questions I asked, I decided to add 10 questions pertaining to the MCU just for fun. I hope you had just as much fun taking this quiz as I did making it. I felt this would be a great way for the potential user to get to know my personality.
 
 ### 4. Images of the web page
 
-![image1](/assets/images/home.png)
-![question1](/assets/images/question1.png)
-![question2](/assets/images/question2.png)
-![question3](/assets/images/question3.png)
-![question4](/assets/images/question4.png)
-![question5](/assets/images/question5.png)
-![question6](/assets/images/question6.png)
-![question7](/assets/images/question7.png)
-![question8](/assets/images/question8.png)
-![question9](/assets/images/question9.png)
-![question10](/assets/images/question10.png)
-![finalscore](assets/images/final%20score.png)
+#### Home Screen
+
+![image1](/assets/images/1.png)
+
+#### Question 1
+
+![question1](/assets/images/2.png)
+
+#### Question 2
+
+![question2](/assets/images/3.png)
+
+#### Question 3
+
+![question3](/assets/images/4.png)
+
+#### Question 4
+
+![question4](/assets/images/5.png)
+
+#### Question 5
+
+![question5](/assets/images/6.png)
+
+#### Question 6
+
+![question6](/assets/images/7.png)
+
+#### Question 7
+
+![question7](/assets/images/8.png)
+
+#### Question 8
+
+![question8](/assets/images/9.png)
+
+#### Question 9
+
+![question9](/assets/images/10.png)
+
+#### Question 10
+
+![question10](/assets/images/11.png)
+
+#### Question 11
+
+![question11](/assets/images/12.png)
+
+#### Question 12
+
+![question12](assets/images/13.png)
+
+#### Question 13
+
+![question13](assets/images/14.png)
+
+#### Question 14
+
+![question14](assets/images/15.png)
+
+#### Question 15
+
+![question15](assets/images/16.png)
+
+#### Question 16
+
+![question16](assets/images/17.png)
+
+#### Question 17
+
+![question17](assets/images/18.png)
+
+#### Question 18
+
+![question18](assets/images/19.png)
+
+#### Question 19
+
+![question19](assets/images/20.png)
+
+#### Question 20
+
+![Question20](assets/images/21.png)
+
+#### High Score Screen
+
+![highscore](assets/images/22.png)
 
 ### 5. Link to the Web Site
 
@@ -52,5 +129,7 @@ https://eloquentjavascript.net/
 
 I also looked at codeninjas.com
 https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/
+
+In addition, I borrowed some trivia information from rottentomatoes.com
 
 As well as took advantage of the excellent staff at Central Florida University and Trinity Education Services. Thank you for taking the time to read my Code Quiz Project. If you would like to view more please submit a pull request.
