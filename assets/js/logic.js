@@ -164,11 +164,11 @@ function allDone() {
 
 // Calculates time remaining and replaces it with score
 if (secondsLeft >= 0) {
-        var timeRemaining = secondsLeft;
-        var createP2 = document.createElement("p");
-        clearInterval(holdInterval);
-        createP.textContent = "Your final score is: " + timeRemaining;
-        questionsDiv.appendChild(createP2);
+    var timeRemaining = secondsLeft;
+    var createP2 = document.createElement("p");
+    clearInterval(holdInterval);
+    createP.textContent = "Your final score is: " + timeRemaining;
+    questionsDiv.appendChild(createP2);
     }
 
 // creates a label to enter user intials
@@ -200,9 +200,10 @@ questionsDiv.appendChild(createInput);
      } 
         else {
          var finalScore = {
-             initials: initials,
-             score: timeRemaining
+             initials = initials,
+             myScore = timeRemaining,
          }
+        
          console.log(finalScore);
          var allScores = localStorage.getItem("allScores");
          if (allScores === null) {
