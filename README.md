@@ -27,5 +27,30 @@ As a junior web developer I found this task to be extremely challenging. I learn
 
 ### 4. Images of the web page
 
-![image1] ()
+![image1](assets/images/image1.png)
+![question1](assets/images/question1.png)
+![question2](assets/images/question2.png)
+![question3](assets/images/question3.png)
+![question4](assets/images/question4.png)
+![question5](assets/images/question5.png)
+![question6](assets/images/question6.png)
+![question7](assets/images/question7.png)
+![question8](assets/images/question8%20.png)
+![question9](assets/images/question9.png)
+![question10](assets/images/question10.png)
+![finalscore](assets/images/final%20score.png)
 
+### 5. Link to the Web Site
+
+Please click on the link below to take you to the code quiz.
+https://grave019.github.io/coding-quiz/
+
+### 6. Credits
+
+To complete this Code Quiz I used Eloquent JavaScrip 3rd edition. 
+https://eloquentjavascript.net/
+
+I also looked at codeninjas.com
+https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/
+
+As well as took advantage of the excellent staff at Central Florida University and Trinity Education Services. Thank you for taking the time to read my Code Quiz Project. If you would like to view more please submit a pull request.
