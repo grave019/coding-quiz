@@ -20,7 +20,7 @@ body {
     left: 30%;
     top: 20%;
     width: 500px;
-    height: 500px;
+    height: 750px;
     border: 5px solid teal;
     flex-grow: inherit;
 }
@@ -51,6 +51,7 @@ body {
     float: right;
     font-size: 20px;
     font-weight: bold;
+    background-color: teal;
 }
 
 #goBack {
@@ -84,7 +85,6 @@ body {
     color: black;
     top: 30%;
     right: 5%;
-    text-align: center;
     opacity: .75;
 }
 
@@ -107,7 +107,11 @@ textarea {
     margin-left: 33%;
     padding: 15px 32px;
     font-size: 20px;
-    color: white;
+    color: black;
+}
+
+#Submit:hover {
+    color:white;
 }
 
 label {
@@ -142,5 +146,5 @@ li:hover {
 
 #createDiv {
     margin-top: 20px;
-    border-top: 5px solid lightgray;
+    border-top: 5px solid teal;
 }
